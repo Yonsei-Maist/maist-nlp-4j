@@ -12,20 +12,20 @@ maven3 ~
 in your pom.xml file
 ```
 <repositories>
-		<repository>
-			  <id>maven-public</id>
+    <repository>
+        <id>maven-public</id>
         <url>http://maist.yonsei.ac.kr:8888/repository/maven-public/</url>
-			  <releases>
-				    <enabled>true</enabled>
-			  </releases>
-		</repository>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+    </repository>
 </repositories>
 <dependencies>
-		<dependency>
-			  <groupId>kr.ac.yonsei.maist</groupId>
-			  <artifactId>maist-nlp</artifactId>
-			  <version>{version}</version>
-		</dependency>
+    <dependency>
+        <groupId>kr.ac.yonsei.maist</groupId>
+        <artifactId>maist-nlp</artifactId>
+        <version>{version}</version>
+    </dependency>
 </dependencies>
 ```
 
