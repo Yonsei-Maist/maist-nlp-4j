@@ -10,9 +10,9 @@
 
     <distributionManagement>
         <repository>
-            <id>maven-public</id>
-            <name>maven-public</name>
-            <url>http://maist.yonsei.ac.kr:8888/repository/maven-public/</url>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <url>http://maist.yonsei.ac.kr:8888/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
