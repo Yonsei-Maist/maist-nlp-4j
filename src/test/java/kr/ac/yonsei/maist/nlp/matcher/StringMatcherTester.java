@@ -5,8 +5,8 @@ import kr.ac.yonsei.maist.nlp.datastructure.Similarity;
 public class StringMatcherTester {
     public static void main(String[] args) {
         StringMatcher matcher = new StringMatcher();
-        String src = "누가야 온도 예열해줘";
-        String compare = "누가야 몸도 예얼애주";
+        String src = "음성 인식을 비교하기 위한 실제 문자열";
+        String compare = "음성 인식은 비고하기 의한 실제 문자얼";
 
         Similarity sim = matcher.compare(src, compare);
 

@@ -47,7 +47,7 @@ public class StringMatcher {
             boolean match = srcOne == compareOne;
             if (!match) {
                 // check more
-                for (int i = cursorCompare;i<charArrayCompare.length;i++) {
+                for (int i = cursorCompare;i<Math.min(charArrayCompare.length, cursorCompare + 3);i++) {
                     char compareOneTemp = charArrayCompare[i];
 
                     if (srcOne == compareOneTemp) {
